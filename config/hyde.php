@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'name' => env('SITE_NAME', 'Violinist Blog'),
+    'name' => 'Violinist Blog',
 
     /*
     |--------------------------------------------------------------------------
