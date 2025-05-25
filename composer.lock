@@ -6391,16 +6391,16 @@
         },
         {
             "name": "hyde/realtime-compiler",
-            "version": "v3.6.1",
+            "version": "v3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hydephp/realtime-compiler.git",
-                "reference": "82569615bd4065e4abbe8f4447b05121e8fb2708"
+                "reference": "5bcc142371f916adcbe235244b71845f2cb65968"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hydephp/realtime-compiler/zipball/82569615bd4065e4abbe8f4447b05121e8fb2708",
-                "reference": "82569615bd4065e4abbe8f4447b05121e8fb2708",
+                "url": "https://api.github.com/repos/hydephp/realtime-compiler/zipball/5bcc142371f916adcbe235244b71845f2cb65968",
+                "reference": "5bcc142371f916adcbe235244b71845f2cb65968",
                 "shasum": ""
             },
             "require": {
@@ -6420,6 +6420,13 @@
                 "bin/server.php"
             ],
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hyde\\RealtimeCompiler\\RealtimeCompilerServiceProvider"
+                    ]
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Hyde\\RealtimeCompiler\\": "src/"
@@ -6438,7 +6445,7 @@
             "description": "HydePHP Realtime Compiler Server",
             "support": {
                 "issues": "https://github.com/hydephp/realtime-compiler/issues",
-                "source": "https://github.com/hydephp/realtime-compiler/tree/v3.6.1"
+                "source": "https://github.com/hydephp/realtime-compiler/tree/v3.7.0"
             },
             "funding": [
                 {
@@ -6450,7 +6457,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-07-22T08:59:26+00:00"
+            "time": "2024-11-12T10:33:51+00:00"
         }
     ],
     "aliases": [],
